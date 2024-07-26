@@ -10,3 +10,18 @@ export interface Customer{
     city:string,
     contactNumber:string
 }
+
+export interface Item{
+    itemId: number,
+    name:string,
+    rentalPerDay: number,
+    finePerDay:number,
+    availability:string
+}
+
+export interface ItemCreate{
+    name:string,
+    rentalPerDay: number,
+    finePerDay:number,
+    availability:string
+}
