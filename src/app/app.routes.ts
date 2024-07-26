@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { ManageCustomerComponent } from './component/manage-customer/manage-customer.component';
 import { ManageItemsComponent } from './component/manage-items/manage-items.component';
+import { ManageRentalComponent } from './component/manage-rental/manage-rental.component';
 
 export const routes: Routes = [
     {
@@ -8,7 +9,11 @@ export const routes: Routes = [
         component: ManageItemsComponent
     },
     {
-        path : "",
+        path : "customers",
         component: ManageCustomerComponent
+    },
+    {
+        path : "",
+        component: ManageRentalComponent
     }
 ];

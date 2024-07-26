@@ -25,3 +25,9 @@ export interface ItemCreate{
     finePerDay:number,
     availability:string
 }
+
+export interface CartItem{
+    itemId:number,
+    quantity:number,
+    totalItemCost:number
+}
